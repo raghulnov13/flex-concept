@@ -1,0 +1,34 @@
+.flex-after {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.box {
+    border: 3px solid red;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.flex-direction{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    
+}
+.flex-direction .box{
+    margin-right: 10px;
+    text-align: center;
+    
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.con{
+    width: 30%;
+}
+.flex-wrap .box{
+    margin-bottom: 20px;
+}
